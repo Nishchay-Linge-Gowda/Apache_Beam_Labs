@@ -4,7 +4,7 @@ This project implements a complete Apache Beam pipeline that reads a text datase
 
 ---
 
-📌 Project Overview
+Project Overview
 
 The objective of this project is to build a Word Count pipeline with **different logic** from the classic `(word, 1)` → `CombinePerKey(sum)` approach.  
 This pipeline demonstrates:
@@ -19,7 +19,7 @@ This pipeline demonstrates:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 **File:** `world_events_dataset.txt`  
 This dataset contains real-world global event summaries including:
@@ -34,46 +34,45 @@ Each line represents one news item.
 
 ---
 
-## 🛠️ Installation & Environment Setup
+## Installation & Environment Setup
 
 Install Apache Beam:
 
-```bash
-pip install apache-beam
+pip install apache-beam 
 
-Project Structure:
+## Project Structure:
 
 ├── world_events_dataset.txt       # Input dataset
 ├── outputs-00000-of-00001.txt     # Auto-generated output file
 ├── README.md                      # Documentation file
 └── notebook.ipynb                 # Apache Beam code implementation
 
-🧠 Key Apache Beam Concepts Used
+## Key Apache Beam Concepts Used
 
-Pipeline: Defines the workflow
+1. Pipeline: Defines the workflow
 
-PCollection: Distributed dataset
+2. PCollection: Distributed dataset
 
-ReadFromText: Input source
+3. ReadFromText: Input source
 
-FlatMap: Word extraction
+4. FlatMap: Word extraction
 
-Count.PerElement(): Alternative word counting logic
+5. Count.PerElement(): Alternative word counting logic
 
-ToList: Combine results globally
+6. ToList: Combine results globally
 
-WriteToText: Output sink
+7. WriteToText: Output sink
 
-🧪 How to Run
+## How to Run
 
-Run Cell 1 (Setup)
+1. Run Cell 1 (Setup)
 
-Run Cell 2 (Pipeline)
+2. Run Cell 2 (Pipeline)
 
-Check your working directory for:
+3. Check your working directory for:
 
-outputs-00000-of-00001.txt
+   outputs-00000-of-00001.txt
 
-✅ Conclusion
+## Conclusion
 
 This project demonstrates a complete Apache Beam text-processing workflow using an alternative counting method. It processes real-world data, sorts and formats results, and exports them cleanly to a text file.
