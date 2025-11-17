@@ -1,4 +1,4 @@
-Apache Beam Word Count Pipeline
+## Apache Beam Word Count Pipeline
 
 This project implements a complete Apache Beam pipeline that reads a text dataset, extracts words, counts the frequency of each word using an alternative counting logic (`Count.PerElement()`), sorts the results, and stores them in an output file.
 
