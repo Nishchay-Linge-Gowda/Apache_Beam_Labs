@@ -90,8 +90,8 @@ This project demonstrates:
 
 2. Using alternative logic (Count.PerElement) for word counting
 
-3. Processing a real-world dataset
+4. Processing a real-world dataset
 
-4. Sorting and formatting Beam output
+5. Sorting and formatting Beam output
 
-5. Exporting results to a text file
+6. Exporting results to a text file
