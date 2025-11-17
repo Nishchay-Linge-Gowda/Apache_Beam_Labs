@@ -42,10 +42,10 @@ pip install apache-beam
 
 ## Project Structure:
 
-1. world_events_dataset.txt       # Input dataset
-2. outputs-00000-of-00001.txt     # Auto-generated output file
-3. README.md                      # Documentation file
-4. notebook.ipynb                 # Apache Beam code implementation
+1. world_events_dataset.txt - > Input dataset
+2. outputs-00000-of-00001.txt - > Auto-generated output file
+3. README.md - > Documentation file
+4. notebook.ipynb - > Apache Beam code implementation
 
 
 ## Key Apache Beam Concepts Used
